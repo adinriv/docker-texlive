@@ -19,5 +19,6 @@ RUN apt-get update -qq &&\
     apt-get autoremove &&\
     rm -rf /var/lib/apt/lists/* \
            /tmp/* \
-           /var/tmp/*
+           /var/tmp/* \
+           install-tl-unx.tar.gz
 
